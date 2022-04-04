@@ -1,0 +1,19 @@
+.posts {
+    .item {
+        border: 1px solid;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        margin: 15px;
+        &__title {
+            display: inline-block;
+            font-size: 1rem;
+        }
+        &__desc {
+            display: inline-block;
+            margin: 15px 0 0 0;
+            font-size: 0.875rem;
+        }
+    }
+}
